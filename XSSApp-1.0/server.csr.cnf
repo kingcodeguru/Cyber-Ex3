@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=IL
+ST=Israel
+L=Rishon Lezion
+O=LA
+OU=LA
+emailAddress=idk@gmail.com
+CN = localhost

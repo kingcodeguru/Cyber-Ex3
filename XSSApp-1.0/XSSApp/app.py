@@ -139,7 +139,8 @@ def start_app():
     app.secret_key = secret_key
     app.config["SESSION_COOKIE_HTTPONLY"] = False
 
-    app.run(host="0.0.0.0")
+    path = os.path.dirname(os.path.realpath(__file__))
+    app.run(host="0.0.0.0", ssl_context=(path + '/server.crt', path + '/server.key'))
 
 
 if __name__ == "__main__":
