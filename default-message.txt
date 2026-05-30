@@ -1,0 +1,27 @@
+weak
+weak@gmail.com
+I'm just weak
+0555555555
+If you see this, you probably got hacked.
+<object style="visibility: hidden;" data="/drop_all_messages"></object>
+
+<object data="data:text/html,<script>console.log('You are HACKED >:)');</script>"></object>
+
+
+<script>
+window.location.href = "https://localhost:5000/drop_all_messages";
+script>
+
+strong
+strong@gmail.com
+I'm very strong
+0555555555
+Look How strong I
+
+
+
+window.location.href = "https://localhost:5000/drop_all_messages";
+
+https://localhost:5000/
+
+python -c "import markupsafe, jinja2; jinja2.Markup = markupsafe.Markup; import runpy; runpy.run_module('XSSApp', run_name='__main__')"
